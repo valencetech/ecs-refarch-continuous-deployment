@@ -7,6 +7,7 @@ Description: >
 Parameters:
   GitHubUser:
     Type: String
+    Default: valencetech
     Description: Your username on GitHub.
 
   GitHubRepo:

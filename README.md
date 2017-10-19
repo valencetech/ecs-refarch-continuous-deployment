@@ -7,7 +7,7 @@ Launching this AWS CloudFormation stack provisions a continuous deployment proce
 
 [![](images/architecture.png)][architecture]
 
-## Running the example
+## Running the example stack
 
 #### 1. Fork the GitHub repository
 
@@ -51,7 +51,7 @@ The CloudFormation stack provides the following output:
 - **ServiceUrl**: The sample service that is being continuously deployed.
 - **PipelineUrl**: The continuous deployment pipeline in the AWS Management Console.
 
-### Testing the example
+### Testing the example stack
 
 After the CloudFormation stack is created, the latest commit to the GitHub repository is run through the pipeline and deployed to ECS. Open the **PipelineUrl** to watch the first revision run through the CodePipeline pipeline. After the deploy step turns green, open the URL from **ServiceUrl** which loads a page similar to this:
 
